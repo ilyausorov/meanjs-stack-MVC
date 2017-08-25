@@ -59,7 +59,7 @@ The folder structure I used is as follows:
 4. misc (assorted files for deploy, testing, and scripts)
   
   
-Getting Started
+# Getting Started
 1. Download the repository onto your computer, preferably as close as possible to your root (~/[your-name] on Mac or C:/Users/[your-name] on Windows) directory
 2. Go to mLab, make an account and create a new MongoDB data in sandbox mode. Click it and copy the URL that they give you. It should look something like this: mongodb://<dbuser>:<dbpassword>@ds152363.mlab.com:56323/[database-name]
 3. use the terminal on Mac or command prompt on windows to navigate to the folder where you downloaded the repository and use the npm install command. This requires that you have already installed node.js and npm.
