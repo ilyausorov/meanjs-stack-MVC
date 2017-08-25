@@ -47,15 +47,15 @@ The folder structure I used is as follows:
           - articles
           - core
           - users
-  2. public
+2. public
     - css (just one css file for simplicity, not a fan of all the CSS pre-compiling)
     - fonts
     - images
     - libraries (all your angular files)
-  3. settings
+3. settings
     - common_files (the base express.js, node.js and mongo db files)
     - environment_settings (this is where you have to add your database details, social login app id & key and other details)
     - file_import_settings (try not to mess with this unless you're changing the folder structure again)
-  4. misc (assorted files for deploy, testing, and scripts)
+4. misc (assorted files for deploy, testing, and scripts)
   
 Hope this helps folks use the Mean stack more easily.  
