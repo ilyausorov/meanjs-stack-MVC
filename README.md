@@ -1,5 +1,5 @@
 # meanjs-stack-MVC
-Reorganized the MEANJS.org repo into an easier to work with folder structure based on using MVC first
+Reorganized the MEANJS.org repo into an easier to work with folder structure based on using MVC first. Hope this helps folks use the Mean stack more easily.
 
 Obviously full credit to the Meanjs team for this fantastic stack: https://github.com/meanjs/mean. See their page for full instructions.
 
@@ -58,4 +58,13 @@ The folder structure I used is as follows:
     - file_import_settings (try not to mess with this unless you're changing the folder structure again)
 4. misc (assorted files for deploy, testing, and scripts)
   
-Hope this helps folks use the Mean stack more easily.  
+  
+Getting Started
+1. Download the repository onto your computer, preferably as close as possible to your root (~/[your-name] on Mac or C:/Users/[your-name] on Windows) directory
+2. Go to mLab, make an account and create a new MongoDB data in sandbox mode. Click it and copy the URL that they give you. It should look something like this: mongodb://<dbuser>:<dbpassword>@ds152363.mlab.com:56323/[database-name]
+3. use the terminal on Mac or command prompt on windows to navigate to the folder where you downloaded the repository and use the npm install command. This requires that you have already installed node.js and npm.
+4. Go into your settings/environment_settings/development.js file and update line 7 with the url of your MongoDB database. It should be in single quotes, kind of like this: uri: 'mongodb://<dbuser>:<dbpassword>@ds152363.mlab.com:56323/[database-name]'. Make sure you actually replace the username and password fields with your actual username and password.
+5. In your terminal or command prompt, use the npm start command to start the app.
+6. Navigate your browser to http://localhost:3000 to start the app. Make sure you always code with your Dev tools open.
+
+Cheers-
