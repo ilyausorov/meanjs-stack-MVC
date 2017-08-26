@@ -1,5 +1,5 @@
 # meanjs-stack-MVC
-Reorganized the MEANJS.org repo into an easier to work with folder structure based on using MVC first. Hope this helps folks use the Mean stack more easily.
+Reorganized the MEANJS.org repo into an easier to work with folder structure based on using MVC first. Hope this helps folks use the Mean stack more easily. Forked from mean.js 5.0.
 
 Obviously full credit to the Meanjs team for this fantastic stack: https://github.com/meanjs/mean. See their page for full instructions.
 
